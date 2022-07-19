@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO 常量 iota">
-      <change afterPath="$PROJECT_DIR$/src/defer/defer_go.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/defer/recover_go.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/func/InitLib1/InitLib1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/func/InitLib2/InitLib2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/func/main/func_go.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/func/main/func_params_go.go" afterDir="false" />
+    <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO 函数 defer recover">
+      <change afterPath="$PROJECT_DIR$/src/sliceAndMap/map_go.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sliceAndMap/slice_go.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,22 +66,13 @@
       <recent name="D:\Go\GoProject\basisProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build recover_go.go">
+  <component name="RunManager" selected="Go Build.go build map_go.go">
     <configuration name="go build defer_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/src/defer/defer_go.go" />
-      <output_directory value="$PROJECT_DIR$/bin" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build func_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basisProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/func/main/func_go.go" />
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
@@ -98,12 +85,12 @@
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
-    <configuration name="go build iota_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build map_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/constant/iota_go.go" />
+      <filePath value="$PROJECT_DIR$/src/sliceAndMap/map_go.go" />
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
@@ -116,20 +103,29 @@
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
+    <configuration name="go build slice_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basisProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/sliceAndMap/slice_go.go" />
+      <output_directory value="$PROJECT_DIR$/bin" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Go Build.go build map_go.go" />
+      <item itemvalue="Go Build.go build slice_go.go" />
       <item itemvalue="Go Build.go build recover_go.go" />
       <item itemvalue="Go Build.go build defer_go.go" />
       <item itemvalue="Go Build.go build func_params_go.go" />
-      <item itemvalue="Go Build.go build func_go.go" />
-      <item itemvalue="Go Build.go build iota_go.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build map_go.go" />
+        <item itemvalue="Go Build.go build slice_go.go" />
         <item itemvalue="Go Build.go build recover_go.go" />
         <item itemvalue="Go Build.go build defer_go.go" />
         <item itemvalue="Go Build.go build func_params_go.go" />
-        <item itemvalue="Go Build.go build func_go.go" />
-        <item itemvalue="Go Build.go build iota_go.go" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +148,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="holle go 声明变量" />
     <MESSAGE value="GO 常量 iota" />
-    <option name="LAST_COMMIT_MESSAGE" value="GO 常量 iota" />
+    <MESSAGE value="GO 函数 defer recover" />
+    <option name="LAST_COMMIT_MESSAGE" value="GO 函数 defer recover" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

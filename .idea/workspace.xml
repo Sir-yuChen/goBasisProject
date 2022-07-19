@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO 常量 iota">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/go_build_constant_go_go.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/go_build_iota_go_go.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constant/constant_go.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constant/iota_go.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defer/defer_go.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defer/recover_go.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/func/InitLib1/InitLib1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/func/InitLib2/InitLib2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/func/main/func_go.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/func/main/func_params_go.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,17 +60,41 @@
     "configurable..is.expanded": "false",
     "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/Go/GoProject/basisProject/src/Holle/holle_go.go",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "D:/Go/GoProject/basisProject/bin",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Go"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build iota_go.go">
-    <configuration name="go build constant_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Go\GoProject\basisProject\src\func\main" />
+      <recent name="D:\Go\GoProject\basisProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build recover_go.go">
+    <configuration name="go build defer_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/constant/constant_go.go" />
+      <filePath value="$PROJECT_DIR$/src/defer/defer_go.go" />
+      <output_directory value="$PROJECT_DIR$/bin" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build func_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basisProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/func/main/func_go.go" />
+      <output_directory value="$PROJECT_DIR$/bin" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build func_params_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basisProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/func/main/func_params_go.go" />
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
@@ -82,37 +107,29 @@
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
-    <configuration name="go build variable_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build recover_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/variable/variable_go.go" />
-      <output_directory value="$PROJECT_DIR$/bin" />
-      <method v="2" />
-    </configuration>
-    <configuration name="holle go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="basisProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/src/Holle" />
-      <filePath value="$PROJECT_DIR$/src/Holle/holle_go.go" />
+      <filePath value="$PROJECT_DIR$/src/defer/recover_go.go" />
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build recover_go.go" />
+      <item itemvalue="Go Build.go build defer_go.go" />
+      <item itemvalue="Go Build.go build func_params_go.go" />
+      <item itemvalue="Go Build.go build func_go.go" />
       <item itemvalue="Go Build.go build iota_go.go" />
-      <item itemvalue="Go Build.go build constant_go.go" />
-      <item itemvalue="Go Build.go build variable_go.go" />
-      <item itemvalue="Go Build.holle go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build recover_go.go" />
+        <item itemvalue="Go Build.go build defer_go.go" />
+        <item itemvalue="Go Build.go build func_params_go.go" />
+        <item itemvalue="Go Build.go build func_go.go" />
         <item itemvalue="Go Build.go build iota_go.go" />
-        <item itemvalue="Go Build.go build constant_go.go" />
-        <item itemvalue="Go Build.go build variable_go.go" />
-        <item itemvalue="Go Build.holle go" />
       </list>
     </recent_temporary>
   </component>

@@ -247,6 +247,45 @@ func main() {
 			4. reflect.Value的 Call 这个方法，这个方法将最终调用真实的方法，参数务必保持一致，如果reflect.Value'Kind不是一个方法，那么将直接panic。
 			5. 本来可以用u.ReflectCallFuncXXX直接调用的，但是如果要通过反射，那么首先要将方法注册，也就是MethodByName，然后通过反射调用methodValue.Call
 	*/
+
+	/*
+		Golang的反射reflect性能
+			Golang的反射很慢，这个和它的API设计有关。在 java 里面，我们一般使用反射都是这样来弄的
+					Field field = clazz.getField("hello");
+					field.get(obj1);
+					field.get(obj2);
+			这个取得的反射对象类型是 java.lang.reflect.Field。它是可以复用的。只要传入不同的obj，就可以取得这个obj上对应的 field
+
+			但是Golang的反射不是这样设计的:
+				type_ := reflect.TypeOf(obj)
+				field, _ := type_.FieldByName("hello")
+			这里取出来的 field 对象是 reflect.StructField 类型，但是它没有办法用来取得对应对象上的值。如果要取值，得用另外一套对object，而不是type的反射
+				type_ := reflect.ValueOf(obj)
+				fieldValue := type_.FieldByName("hello")
+			这里取出来的 fieldValue 类型是 reflect.Value，它是一个具体的值，而不是一个可复用的反射对象了，每次反射都需要malloc这个reflect.Value结构体，并且还涉及到GC。
+		Golang reflect慢主要有两个原因：
+			1. 涉及到内存分配以及后续的GC；
+			2. reflect实现里面有大量的枚举，也就是for循环，比如类型之类的
+	*/
+
+	/*
+
+		Go反射reflect总结:
+			上述详细说明了Golang的反射reflect的各种功能和用法，都附带有相应的示例，相信能够在工程应用中进行相应实践，总结一下就是：
+				● 反射可以大大提高程序的灵活性，使得interface{}有更大的发挥余地
+				  ○ 反射必须结合interface才玩得转
+				  ○ 变量的type要是concrete type的（也就是interface变量）才有反射一说
+				● 反射可以将“接口类型变量”转换为“反射类型对象”
+				  ○ 反射使用 TypeOf 和 ValueOf 函数从接口中获取目标对象信息
+				● 反射可以将“反射类型对象”转换为“接口类型变量
+				  ○ reflect.value.Interface().(已知的类型)
+				  ○ 遍历reflect.Type的Field获取其Field
+				● 反射可以修改反射类型对象，但是其值必须是“addressable”
+				  ○ 想要利用反射修改对象状态，前提是 interface.data 是 settable,即 pointer-interface
+				● 通过反射可以“动态”调用方法
+				● 因为Golang本身不支持模板，因此在以往需要使用模板的场景下往往就需要使用反射(reflect)来实现
+	*/
+
 }
 
 // DoFiledAndMethod 通过接口来获取任意参数，然后一一揭晓

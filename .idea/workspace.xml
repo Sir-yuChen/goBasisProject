@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO interface 断言">
-      <change afterPath="$PROJECT_DIR$/src/reflect/reflect_go.go" afterDir="false" />
+    <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO 反射">
+      <change afterPath="$PROJECT_DIR$/src/struct/struct_go.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflect/reflect_go.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflect/reflect_go.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +39,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/Go/GoProject/basisProject/bin",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Go"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Go/GoProject/basisProject/bin&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Go&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Go\GoProject\basisProject\src\func\main" />
       <recent name="D:\Go\GoProject\basisProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build reflect_go.go">
+  <component name="RunManager" selected="Go Build.go build struct_go.go">
     <configuration name="go build interface_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -102,29 +103,28 @@
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
-    <configuration name="go build slice_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build struct_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/sliceAndMap/slice_go.go" />
-      <output_directory value="$PROJECT_DIR$/bin" />
+      <filePath value="$PROJECT_DIR$/src/struct/struct_go.go" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build struct_go.go" />
       <item itemvalue="Go Build.go build reflect_go.go" />
       <item itemvalue="Go Build.go build interface_go.go" />
       <item itemvalue="Go Build.go build obj_go.go" />
       <item itemvalue="Go Build.go build map_go.go" />
-      <item itemvalue="Go Build.go build slice_go.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build struct_go.go" />
         <item itemvalue="Go Build.go build reflect_go.go" />
         <item itemvalue="Go Build.go build interface_go.go" />
         <item itemvalue="Go Build.go build obj_go.go" />
         <item itemvalue="Go Build.go build map_go.go" />
-        <item itemvalue="Go Build.go build slice_go.go" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,8 @@
     <MESSAGE value="GO slice 切片 map" />
     <MESSAGE value="GO 面向对象特征 方法值 方法表达式" />
     <MESSAGE value="GO interface 断言" />
-    <option name="LAST_COMMIT_MESSAGE" value="GO interface 断言" />
+    <MESSAGE value="GO 反射" />
+    <option name="LAST_COMMIT_MESSAGE" value="GO 反射" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

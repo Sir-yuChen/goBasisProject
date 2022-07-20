@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO 反射">
-      <change afterPath="$PROJECT_DIR$/src/struct/struct_go.go" afterDir="false" />
+    <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO goroutine go线程">
+      <change afterPath="$PROJECT_DIR$/src/goroutine/goroutine_go_1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reflect/reflect_go.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflect/reflect_go.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,22 +65,22 @@
       <recent name="D:\Go\GoProject\basisProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build struct_go.go">
+  <component name="RunManager" selected="Go Build.go build goroutine_go_1.go">
+    <configuration name="go build goroutine_go_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basisProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/goroutine/goroutine_go_1.go" />
+      <output_directory value="$PROJECT_DIR$/bin" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build interface_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/src/interface/interface_go.go" />
-      <output_directory value="$PROJECT_DIR$/bin" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build map_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basisProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/sliceAndMap/map_go.go" />
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
@@ -112,19 +111,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build goroutine_go_1.go" />
       <item itemvalue="Go Build.go build struct_go.go" />
       <item itemvalue="Go Build.go build reflect_go.go" />
       <item itemvalue="Go Build.go build interface_go.go" />
       <item itemvalue="Go Build.go build obj_go.go" />
-      <item itemvalue="Go Build.go build map_go.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build goroutine_go_1.go" />
         <item itemvalue="Go Build.go build struct_go.go" />
         <item itemvalue="Go Build.go build reflect_go.go" />
         <item itemvalue="Go Build.go build interface_go.go" />
         <item itemvalue="Go Build.go build obj_go.go" />
-        <item itemvalue="Go Build.go build map_go.go" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +151,9 @@
     <MESSAGE value="GO 面向对象特征 方法值 方法表达式" />
     <MESSAGE value="GO interface 断言" />
     <MESSAGE value="GO 反射" />
-    <option name="LAST_COMMIT_MESSAGE" value="GO 反射" />
+    <MESSAGE value="GO 反射  结构体标签" />
+    <MESSAGE value="GO goroutine go线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="GO goroutine go线程" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

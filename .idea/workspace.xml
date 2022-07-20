@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO goroutine go线程">
-      <change afterPath="$PROJECT_DIR$/src/channel/channel_go.go" afterDir="false" />
+    <list default="true" id="7df96c5e-ddfe-4ffd-85ec-3d349a804fd0" name="Changes" comment="GO channel 管道">
+      <change afterPath="$PROJECT_DIR$/src/select/select_go.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
       <recent name="D:\Go\GoProject\basisProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build channel_go.go">
+  <component name="RunManager" selected="Go Build.go build select_go.go">
     <configuration name="go build channel_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,21 +84,21 @@
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
-    <configuration name="go build interface_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basisProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/interface/interface_go.go" />
-      <output_directory value="$PROJECT_DIR$/bin" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build reflect_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basisProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/src/reflect/reflect_go.go" />
+      <output_directory value="$PROJECT_DIR$/bin" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build select_go.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basisProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/select/select_go.go" />
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
@@ -111,19 +111,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build select_go.go" />
       <item itemvalue="Go Build.go build channel_go.go" />
       <item itemvalue="Go Build.go build goroutine_go_1.go" />
       <item itemvalue="Go Build.go build struct_go.go" />
       <item itemvalue="Go Build.go build reflect_go.go" />
-      <item itemvalue="Go Build.go build interface_go.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build select_go.go" />
         <item itemvalue="Go Build.go build channel_go.go" />
         <item itemvalue="Go Build.go build goroutine_go_1.go" />
         <item itemvalue="Go Build.go build struct_go.go" />
         <item itemvalue="Go Build.go build reflect_go.go" />
-        <item itemvalue="Go Build.go build interface_go.go" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,8 @@
     <MESSAGE value="GO 反射" />
     <MESSAGE value="GO 反射  结构体标签" />
     <MESSAGE value="GO goroutine go线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="GO goroutine go线程" />
+    <MESSAGE value="GO channel 管道" />
+    <option name="LAST_COMMIT_MESSAGE" value="GO channel 管道" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
